@@ -1,5 +1,5 @@
-import { Plane, Mesh, Transform } from "ogl";
-import Material from "./mat/_model";
+import { Transform } from "ogl";
+import Material from "./mat/rock";
 
 export default class extends Transform {
   constructor(gl, { mesh, texture }) {

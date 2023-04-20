@@ -57,7 +57,6 @@ async function loadVideo(src) {
     video.crossOrigin = "anonymous";
 
     video.play().then(() => {
-      //   console.log("canplay");
       resolve(video);
     });
   });
